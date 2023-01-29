@@ -22,7 +22,7 @@ body {
   /* headings */
   .big-heading{
     font-family: "Montserrat", sans-serif;
-    /* font-size: 2.5rem; */
+    font-size: 2.5rem;
     line-height: 1.5;
     color: white;
   }
@@ -95,4 +95,82 @@ body {
 .download-button{
     margin-top: 5%;
     margin-left: 10%;
+}
+
+#intro {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+
+#intro .container .row {
+  align-items: center;
+}
+
+#intro h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#intro p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+#intro .btn {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+#intro .btn:hover {
+  background-color: #fff;
+  border-color: #333;
+  color: #333;
+  cursor: pointer;
+}
+
+#get-involved {
+  background-color: #333;
+  color: #fff;
+  padding: 80px 0;
+}
+#get-involved h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#get-involved hr {
+  border-top: 2px solid #fff;
+  width: 60px;
+  margin: 0 auto 40px;
+}
+
+#get-involved .service-box {
+  text-align: center;
+}
+
+#get-involved .service-box i {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#get-involved .service-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#get-involved .service-box p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
